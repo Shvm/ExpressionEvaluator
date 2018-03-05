@@ -26,4 +26,5 @@ Run ```mvn clean install```, once build is done run ```mvn spring-boot:run``` by
 "/evaluate-for-x" => rearranges expression in terms of x.
 "/solve-for-x" => solves the expression for value of x.
 ```
+Above route take json in query parameters for example /evaluate?json={}
 
